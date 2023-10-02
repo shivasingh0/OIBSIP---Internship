@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  background: #0f0f10;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+}
+/* nav-bar */
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 40px 0px;
+  gap: 250px;
+}
+nav img {
+  width: 25px;
+  height: 25px;
+}
+nav .anker {
+  display: flex;
+  gap: 50px;
+}
+nav a {
+  text-decoration: none;
+  font-weight: 600;
+  margin-top: 9px;
+}
+nav button {
+  background-color: #1e1e21;
+  border: 1px #ffffff;
+  padding: 12px 45px;
+  border-radius: 10px;
+}
+
+/* main section */
+main .main-img {
+  position: absolute;
+  margin-top: -200px;
+  margin-left: 330px;
+}
+main .main-img img {
+  position: absolute;
+  height: 66vh;
+  width: 15vw;
+}
+main .on-ear {
+  margin-left: 45%;
+  margin-top: 1%;
+}
+main .on-ear img {
+  height: 10vh;
+  width: 21vw;
+}
+main .text {
+  margin-left: 42%;
+  margin-top: 1%;
+  width: 500px;
+}
+main .text h1 {
+  font-size: 45px;
+}
+main .text h3 {
+  margin: 5% 0%;
+}
+main .text p {
+  font-size: 12px;
+  font-weight: 300;
+  color: #bdc0c2;
+  width: 75%;
+  line-height: 25px;
+  bottom: 25px;
+}
+main .text .button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: fit-content;
+  background-color: #1e1e21;
+  border: 1px #ffffff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+main .text .button img {
+  background-color: transparent;
+}
+main .text .button p {
+  background-color: transparent;
+}
+main .text .button span {
+  background-color: transparent;
+}
+main .trusted {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 120px;
+  gap: 170px;
+}
+main .trusted img {
+  height: 25px;
+  width: 70px;
+}
+main .trusted [alt="youtube"] {
+  height: 20px;
+  width: 75px;
+}
+main .specs-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 7%;
+}
+main .specs-image img {
+  width: 11vw;
+}
+main .specs .specs-details {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+main .specs .specs-details .minor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .specs .specs-details .minor h5 {
+  margin-top: 10px;
+  color: #e4e7e8;
+}
+main .specs .specs-details .minor p {
+  font-size: 10px;
+  color: #bdc0c2;
+  margin-bottom: 17px;
+  margin-top: 7px;
+}
+main .specs .specs-details .minor img {
+  width: 12px;
+}
+main .specs .specs-headphone img {
+  width: 16vw;
+}
+main .specs .specs-details .minor [alt="bluetooth"] {
+  margin-right: 20px;
+}
+main .specs .specs-details .minor [alt="battery"] {
+  margin-right: 120px;
+}
+main .specs .specs-details .minor [alt="load"] {
+  margin-right: 120px;
+}
+main .specs .specs-details .minor [alt="mic"] {
+  margin-right: 20px;
+}
+main .case-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 6%;
+}
+main .case-image img {
+  width: 10vw;
+}
+main .case-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  margin-top: 70px;
+}
+main .case-details [alt="mouse"] {
+  width: 15.5vw;
+}
+main .case-details .case-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 25px;
+  width: 185px;
+  font-size: 13px;
+}
+main .case-details .case-text p {
+  color: #bdc0c2;
+}
+main .case-details .case-text .button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1e1e21;
+  width: 140px;
+  height: 40px;
+  margin-top: 25px;
+  border-radius: 10px;
+}
+main .case-details .case-text .button [alt="More-details"] {
+  width: 18px;
+  background: transparent;
+}
+main .case-details .case-text .button span {
+  background: transparent;
+}
+main .product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 6%;
+  background-color: #181a1b;
+  border-radius: 20px;
+}
+main .product .product-div {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  background: transparent;
+}
+main .product-div-div {
+  width: 250px;
+  background: transparent;
+}
+main .product-div-div h3 {
+  background: transparent;
+}
+main .product-div-div h5 {
+  margin-top: 20px;
+  background: transparent;
+}
+main .product-div-div button {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  border: #ffffff;
+  background-color: #000000;
+  padding: 10px 22px;
+  border-radius: 10px;
+  gap: 10px;
+}
+main .product-div-div button img,
+p {
+  background: transparent;
+}
+main .product .product-img,
+img {
+  background: transparent;
+}
+
+/* card section  */
+main .product-card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 450px;
+  width: 50%;
+}
+main .choose-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16%;
+}
+main .choose-img img{
+  width: 15vw;
+  margin-left: -100px;
+}
+main .card{
+  display: flex;
+  align-items: center;
+  margin-top: 15%;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+main .card .black{
+  background-color: #181A1B;
+  width: 130px;
+  height: 130px;
+  position: relative;
+  border-radius: 8px;
+}
+main .card [alt="black"]{
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  margin-left: 28px;
+  z-index: 100;
+  top: -40px;
+}
+main .black-text{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background-color: transparent;
+}
+main .black-text p {
+  font-size: 12px;
+}
+
+main .black-text p span {
+  color: #bdc0c2;
+  background-color: transparent;
+}
+main .shoping-bag{
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+}
+main .shoping-bag img{
+  width: 13px;
+  height: 13px;
+}
+
+/* footer */
+footer section{
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  margin-top: 6%;
+  height: 300px;
+  margin-left: 100px;
+}
+footer .beat-logo img{
+  width: 25px;
+  height: 25px;
+}
+footer ul{
+  list-style: none;
+}
+footer ul li a{
+  list-style: none;
+  text-decoration: none;
+  font-size: 12px;
+  color: #BDC0C2;
+}
+footer ul li:first-child a{
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+footer ul li:first-child{
+  margin-bottom: 10px;
+}
+footer .input{
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+footer .input-bar{
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 50px;
+  background-color: #181A1B;
+  border-radius: 10px;
+}
+footer .input input{
+  background: transparent;
+  border: #ffffff;
+  margin-left: 10px;
+}
+footer .input .subscribe-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  background-color: #0A0A0B;
+  gap: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 0 10px;
+}
+footer .input .subscribe-button img{
+  height: 15px;
+}
+footer .input .social{
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+footer .input .social img{
+  scale: .8;
+}
+footer .up-arrow img{
+  scale: .8;
+}
